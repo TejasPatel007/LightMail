@@ -1,0 +1,29 @@
+{
+  "name": "LightMail-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Tejaskumar Patel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status": "^1.6.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "mime": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.2",
+    "multer": "^1.4.5-lts.1",
+    "request": "^2.88.2"
+  }
+}
